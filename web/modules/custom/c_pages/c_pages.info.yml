@@ -1,0 +1,4 @@
+name: Custom page module
+type: module
+core_version_requirement: ^8 || ^9
+description: 'Custom page module'
