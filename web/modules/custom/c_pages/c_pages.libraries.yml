@@ -1,0 +1,8 @@
+uswds:
+  version: 1.0
+  css: 
+    layout:
+      assets/uswds/css/styles.css: { sourceMap: true }
+  js: 
+    assets/uswds/js/uswds-init.min.js: { sourceMap: true }
+    assets/uswds/js/uswds.min.js: { sourceMap: true }

@@ -1,5 +1,9 @@
 <?php
 
+use Drupal\Component\Utility\SafeMarkup;
+use Drupal\Component\Utility\Html;
+use Drupal\Core\Routing\RouteMatchInterface;
+
 /**
  * @file
  * Contains c_pages.module.

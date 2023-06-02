@@ -1,5 +1,6 @@
 /vendor/
 /web/core/
 /web/sites/default/files/
+**/node_modules/**
 
 settings.php

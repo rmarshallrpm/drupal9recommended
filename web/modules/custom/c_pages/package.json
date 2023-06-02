@@ -1,0 +1,17 @@
+{
+  "name": "c_pages",
+  "version": "1.0.0",
+  "description": "uswds library added to a custom module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rmarshall",
+  "license": "ISC",
+  "dependencies": {
+    "@uswds/uswds": "^3.4.1"
+  },
+  "devDependencies": {
+    "@uswds/compile": "^1.0.0"
+  }
+}
