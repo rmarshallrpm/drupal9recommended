@@ -7,21 +7,16 @@ use Drupal\Core\Controller\ControllerBase;
  * Provides route responses for the Example module.
  */
 class ExampleController extends ControllerBase {
-
   /**
-   * Returns a simple page.
-   *
-   * @return array
-   *   A simple renderable array.
-  */
-function myPage() {
-  $test = "";
+   * Returns a Twig template.
+   */
+  function myPage() {
 
-  return [
-    '#type' => 'markup',
-    '#markup' => 'Hello, world 2',
-  ];
-}
+    return [
+      '#theme' => 'c_pages_template',
+      '#test_var' => $this->t('Test Value'),
+    ];
 
+  }
 
 }
