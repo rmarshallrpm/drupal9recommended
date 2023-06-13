@@ -1,0 +1,8 @@
+assets:
+  version: 1.0
+  css:
+    theme:
+      assets/uswds/css/styles.css: {}
+  js:
+    assets/uswds/js/uswds-init.min.js: {}
+    assets/uswds/js/uswds.min.js: {}

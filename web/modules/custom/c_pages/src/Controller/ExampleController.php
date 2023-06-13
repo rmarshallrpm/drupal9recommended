@@ -10,22 +10,18 @@ class ExampleController extends ControllerBase {
   /**
    * Returns a Twig template.
    */
-function myPage() {
-  $display = array();
-  $display['title'] = 'Test Page';
+  function myPage() {
+    $display = array();
+    $display['title'] = 'Test Page';
 
-  $page[] = array(
-    '#theme' => 'c_pages_template', //twig template
-    '#title' => 'Example Page', //page title
-    '#test_var' => $this->t('Test Value'),
-    '#cache' => ['max-age' => 0],
-    '#type' => 'markup'
-  );
+    $page[] = array(
+      '#theme' => 'c_pages_template', //twig template
+      '#title' => 'Example Page', //page title
+      '#test_var' => $this->t('Test Value'),
+      '#cache' => ['max-age' => 0],
+      '#type' => 'markup'
+    );
 
-  $page['#attached']['library'][] = 'c_pages/uswds';
-
-  return $page;   
-}
-
-
+    return $page;   
+  }
 }
